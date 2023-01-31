@@ -11,7 +11,7 @@ import org.junit.Test;
 
 import com.microsoft.azure.servicebus.jms.ServiceBusJmsConnectionFactory;
 import com.microsoft.azure.servicebus.jms.ServiceBusJmsConnectionFactorySettings;
-import com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder;
+import com.microsoft.azure.servicebus.jms.ServicebusSdkDependencies.*;
 
 public class ConfigurationOptionsTest {
     ConnectionStringBuilder connectionStringBuilder;

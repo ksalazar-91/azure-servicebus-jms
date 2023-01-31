@@ -7,7 +7,7 @@ import javax.jms.JMSException;
 import javax.jms.TopicConnection;
 import javax.jms.TopicConnectionFactory;
 
-import com.microsoft.azure.servicebus.primitives.ConnectionStringBuilder;
+import com.microsoft.azure.servicebus.jms.ServicebusSdkDependencies.*;
 
 public class ServiceBusJmsTopicConnectionFactory extends ServiceBusJmsConnectionFactory implements TopicConnectionFactory {
 
